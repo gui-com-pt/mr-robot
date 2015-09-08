@@ -1,0 +1,25 @@
+{
+  "name": "gonferrolo-intro",
+  "version": "0.0.0",
+  "authors": [
+    "Guilherme Cardoso <email@guilhermecardoso.pt>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.4.5"
+  },
+  "dependencies": {
+    "compass-breakpoint": "~2.6.1",
+    "jquery-mousewheel": "~3.1.13",
+    "jquery.terminal": "~0.8.8",
+    "pi-angular": "dev",
+    "pi-sass": "dev"
+  }
+}

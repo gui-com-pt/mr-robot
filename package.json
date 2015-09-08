@@ -1,0 +1,36 @@
+{
+  "name": "gonferrolo-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-inject": "^1.5.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.1.0",
+    "gulp-uglifyjs": "^0.6.1",
+    "gulp-watch": "^4.3.4",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "gulp-watch": "^4.3.5",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "~0.1.5",
+    "karma-cli": "0.0.4",
+    "karma-requirejs": "^0.2.2",
+    "karma-traceur-preprocessor": "^0.4.0",
+    "requirejs": "^2.1.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermegeek/gonferrolo-intro"
+  },
+  "author": "Guilherme Cardoso <email@guilhermecardoso.pt>",
+  "license": "ISC"
+}

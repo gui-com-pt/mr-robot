@@ -1,0 +1,103 @@
+@import "variables";
+@import "terminal";
+$susy: (
+        container: 95%
+);
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "../bower_components/compass-mixins/lib/compass";
+@import "../bower_components/pi-sass/src/boot";
+	body {
+	    background: #fff;
+	    color: #333;
+	    font-family: Raleway;
+	}
+	.wrapper {
+		margin: 2em auto;
+	    padding: 1em 2em;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	    border: 1px solid #dfdfdf;
+	    max-width: 1000px;
+	    box-sizing: border-box;
+	}
+
+	.intro-text {
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	a, a:active, a:hover, a:visited {
+		color: #333;
+	}
+
+	img {
+		max-width: 100%;
+	}
+	.logo {
+		margin-bottom: 7em
+	}
+	.logo img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block
+	}
+
+	.grid {
+
+	}
+	.grid > div, .grid > .grid-col {
+	    border: 1px solid #dfdfdf;
+	    padding: 1em;
+	    box-sizing: border-box;
+	    margin-right: 1%;
+	    text-align: center;
+	    display: block;
+	    margin-bottom: 1em;
+	}
+	.grid-cold {
+		text-decoration: none;
+	}
+
+	@media screen and (min-width: 900px) {
+    	.grid > div, .grid > .grid-col {
+			width: 32%;
+		    float: left;
+		    box-sizing: border-box;
+		    margin-bottom: 0px;
+		}
+	}
+	/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+#footer  {
+	background-color: #333;
+	color: #a4b517;
+	max-width: 1000px;
+	padding: 1em 10em;
+	margin: auto;
+	box-sizing: border-box;
+	text-align: center;
+}
