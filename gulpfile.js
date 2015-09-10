@@ -52,6 +52,8 @@ gulp.task('scripts', function(){
           .pipe(gulp.dest('./public/dist'));
 
     gulp.src([
+      './bower_components/angular/angular.js',
+      './bower_components/angular-i18n/angular-locale_pt.js',
       './bower_components/jquery/dist/jquery.js',
       './bower_components/jquery-ui/jquery-ui.js',
         './bower_components/jquery-bridget/jquery.bridget.js',
@@ -85,4 +87,4 @@ gulp.task('watch', function(){
     gulp.watch(paths.sass, ['sass']);
 });
 
-gulp.task('default', ['scripts', 'dependencies', 'templates', 'inject-dist', 'sass', 'angular']);
+gulp.task('default', ['scripts', 'dependencies', 'templates', 'inject-dist', 'sass']);
