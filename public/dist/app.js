@@ -5,7 +5,8 @@
 
 	angular
 	.module('mrrobot')
-	.config(['terminalConfigurationProvider', 'commandBrokerProvider', function (terminalConfigurationProvider, commandBrokerProvider) {
+	.config(['terminalConfigurationProvider', 'commandBrokerProvider', '$gaProvider', function (terminalConfigurationProvider, commandBrokerProvider, $gaProvider) {
+		$gaProvider.ga('create', 'UA-67448146-1', 'auto');
 
     terminalConfigurationProvider.config('modern').outputDelay = 10;
     terminalConfigurationProvider.config('modern').allowTypingWriteDisplaying = false;
