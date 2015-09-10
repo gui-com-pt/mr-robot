@@ -82,7 +82,7 @@
     setTimeout(function () {
         $scope.$broadcast('terminal-output', {
             output: true,
-            text: ['Olá amigo. Se vieste, vieste por uma razão. Podes não ser capaz de explicar para já, mas há uma parte de ti exausta com este mundo... um mundo que decide onde tu trabalhas, o que tu vês, e como esvazias e enches a tua conta bancária depressiva. Até a ligação de Internet que usas para ler isto te está a custar, desbantando lentamente a tua existẽncia. Há coisas que tu queres dizer. Brevemente eu vou-te dar uma voz. Hoje a tua educação começa.',
+            text: ['Olá amigo. Se vieste, vieste por uma razão. Podes não ser capaz de explicar para já, mas há uma parte de ti exausta com este mundo... um mundo que decide onde tu trabalhas, o que tu vês, e como esvazias e enches a tua conta bancária depressivamente. Até a ligação de Internet que usas para ler isto te está a custar, devastando lentamente a tua existẽncia. Há coisas que tu queres dizer. Brevemente eu vou-te dar uma voz. Hoje a tua educação começa.',
                    '',
                    "Comandos disponíveis",
 								 	"fsociety",
